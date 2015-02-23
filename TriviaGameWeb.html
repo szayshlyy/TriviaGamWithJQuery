@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="TriviaGame.css">
+
+  </head>
+  <body >
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="TriviaGameWeb.html" ><img id="bird" src="http://designreviver.com/wp-content/uploads/2009/08/illustratorcartoon36.jpg"></a></li>
+          <li>About Me:</li>
+          <li><a href= "https://www.facebook.com/Z.Sanita">FaceBook</a></li>
+          <li><a href= "https://twitter.com/SZayshlyy">Twitter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Welcome!
+      </h1>
+      <h2>LETS PLAY SOME TRIVIA</h2>
+      <button id ="play">play!</button>
+
+      <section id="correct" class="result">
+        <p>Correct! you may proceed. </p>
+      </section>
+      <section id="correctTwo" class="result">
+        <p>That is correct!</p>
+      </section>
+      <section id="sorry" class="result">
+        <p>Sorry, that is the wrong answer. But you may proceed.</p>
+      </section>
+      <section id="sorryTwo" class="result">
+        <p>Sorry, But that's wrong.</p>
+      </section>
+
+      <section class= "question" id ="questionOne">
+        <p>Who was the 3rd president of the United States of America? <br> <br>Was it Jefferson, Adams, or Madison</p>
+        <input id= "answerOne" type="text" placeholder="Answer"></input>
+        <button id="submitOne">Enter!</button>
+      </section>
+      <section class= "question" id ="questionTwo">
+        <p>Prior to Washington State being called Washington, what was the area originally called?<br> <br>Was it Columbia, Cascadia, or Kennewick?</p>
+        <input id= "answerTwo" type="text" placeholder="Answer"></input>
+        <button id="submitTwo">Enter!</button>
+      </section>
+      <section class= "question" id ="questionThree">
+        <p>Washington was the _____ state in the USA.<br> <br>40th, 42nd, 43rd</p>
+        <input id= "answerThree" type="text" placeholder="Answer"></input>
+        <button id="submitThree">Enter!</button>
+      </section>
+
+      <section id= "score" class="result">
+        <h3>Result</h3>
+      </section>
+    </main>
+
+    <footer>
+      <p>Thanks for visiting my page and playing the game. </p>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Trivia.js"></script>
+  </body>
+</html>
