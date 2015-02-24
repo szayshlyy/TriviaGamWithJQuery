@@ -54,14 +54,14 @@ var scoreCorrect = 0;
 			$('#correctTwo').fadeIn('slow'),
 			scoreCorrect += 1,
 			console.log(scoreCorrect),
-			$('#score').append('<p>You answered </p>'+ console.log(scoreCorrect.toString())+'<p>question out of 3.</p>');
+			$('#score').append("<p>You answered " + scoreCorrect +" question correctly out of 3.</p>");
 		} else {
 			$('#questionThree').fadeOut('fast'),
 			$('#correct').fadeOut('fast'),
 			$('#sorry').fadeOut('fast'),
 			$('#sorryTwo').fadeIn('slow'),
 			$('#score').fadeIn('slow'),
-			$('#score').append('<p>You answered </p>'+ console.log(scoreCorrect.toString())+'<p>question correctly out of 3.</p>');
+			$('#score').append("<p>You answered " + scoreCorrect +" question correctly out of 3.</p>");
 			};
 	});
 
